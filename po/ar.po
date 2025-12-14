@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhythmbox-plugin-alternative-toolbar\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2021-04-24 10:33+0100\n"
-"PO-Revision-Date: 2023-01-31 12:29+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2025-12-01 14:35+0000\n"
+"PO-Revision-Date: 2023-01-31 13:03+0000\n"
+"Last-Translator: Ibrahim Saed <ibraheem5000@gmail.com>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-11-21 20:16+0000\n"
-"X-Generator: Launchpad (build 5c5453089af6e124865a31f368febff22e0acc72)\n"
+"X-Launchpad-Export-Date: 2025-12-14 16:28+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 
 #: ../alternative-toolbar.py:228 ../alternative-toolbar.py:231
 msgid "Search"
@@ -52,14 +52,6 @@ msgstr "عرض شريط أدوات المصدر"
 #: ../alternative-toolbar.py:273
 msgid "Show or hide the source toolbar"
 msgstr "عرض أو إخفاء شريط أدوات المصدر"
-
-#: ../alternative-toolbar.py:516
-msgid "Restart Rhythmbox"
-msgstr ""
-
-#: ../alternative-toolbar.py:517
-msgid "Please restart Rhythmbox for the changes to take effect."
-msgstr ""
 
 #. define .plugin text strings used for translation
 #: ../alternative-toolbar.py:554
@@ -253,17 +245,6 @@ msgid ""
 "Show or hide redesigned sidebar for the player. It features improved "
 "symbolic icons, better sources organisation and ability to expand and "
 "collapse categories."
-msgstr ""
-
-#: ../ui/altpreferences.ui.h:27
-msgid "Enhanced plugins dialog"
-msgstr ""
-
-#: ../ui/altpreferences.ui.h:28
-msgid ""
-"Show or hide redesigned plugins dialog. It features switches instead of "
-"checkboxes and inline toolbar with symbolic icons .  Works best with Gnome "
-"based desktop environments."
 msgstr ""
 
 #: ../ui/altpreferences.ui.h:27

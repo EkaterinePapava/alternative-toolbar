@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alternative-toolbar\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2023-03-28 13:44+0200\n"
-"PO-Revision-Date: 2023-11-14 05:19+0000\n"
+"POT-Creation-Date: 2025-12-01 14:35+0000\n"
+"PO-Revision-Date: 2025-12-01 21:31+0000\n"
 "Last-Translator: junseok bok <Unknown>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-11-21 20:00+0000\n"
-"X-Generator: Launchpad (build 5c5453089af6e124865a31f368febff22e0acc72)\n"
+"X-Launchpad-Export-Date: 2025-12-14 16:28+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 
 #: ../alternative-toolbar.py:228 ../alternative-toolbar.py:231
 msgid "Search"
@@ -54,7 +54,7 @@ msgid "Show or hide the source toolbar"
 msgstr "소스 툴바를 보거나 숨기기"
 
 #. define .plugin text strings used for translation
-#: ../alternative-toolbar.py:554 ../alttoolbar_plugins.py:385
+#: ../alternative-toolbar.py:554
 msgid "Alternative Toolbar"
 msgstr "대체 도구 모음"
 
@@ -91,38 +91,6 @@ msgstr "최근 연주된 것"
 #: ../alttoolbar_controller.py:646
 msgid "Podcasts"
 msgstr "팟캐스트"
-
-#: ../alttoolbar_plugins.py:116
-msgid "The plugin cannot be enabled"
-msgstr "활성화 할수 없는 플러그인"
-
-#: ../alttoolbar_plugins.py:246
-msgid "Configure Plugins"
-msgstr "플러그인 설정"
-
-#: ../alttoolbar_plugins.py:333
-msgid "About this plugin"
-msgstr "이 플러그인의 정보"
-
-#: ../alttoolbar_plugins.py:365
-msgid "Version: "
-msgstr "버전: "
-
-#: ../alttoolbar_plugins.py:390
-msgid "Developer:"
-msgstr "개발자:"
-
-#: ../alttoolbar_plugins.py:402
-msgid "Designer:"
-msgstr "디자이너:"
-
-#: ../alttoolbar_plugins.py:425
-msgid "Help"
-msgstr "도움말"
-
-#: ../alttoolbar_plugins.py:433
-msgid "Homepage"
-msgstr "홈페이지"
 
 #: ../alttoolbar_preferences.py:307
 msgid "Restart"
@@ -168,11 +136,11 @@ msgstr "현재 트랙 을 반복"
 
 #: ../ui/altpreferences.ui.h:1
 msgid "Top"
-msgstr ""
+msgstr "상단"
 
 #: ../ui/altpreferences.ui.h:2
 msgid "Bottom"
-msgstr ""
+msgstr "하단"
 
 #: ../ui/altpreferences.ui.h:3
 msgid "Horizontal"
@@ -299,175 +267,3 @@ msgstr "다음 트랙 재생"
 #: ../ui/alttoolbar.ui.h:5
 msgid "Play the tracks in random order"
 msgstr "임의의 순서로트랙을 재생"
-
-#: ../ui/altmenubar.ui.h:1
-msgid "_File"
-msgstr "파일(_F)"
-
-#: ../ui/altmenubar.ui.h:2
-msgid "_Add Music"
-msgstr "음악 추가(_A)"
-
-#: ../ui/altmenubar.ui.h:3
-msgid "_Playlist"
-msgstr "재생목록(_P)"
-
-#: ../ui/altmenubar.ui.h:4
-msgid "_New Playlist…"
-msgstr "새 재생목록(_N)..."
-
-#: ../ui/altmenubar.ui.h:5
-msgid "New _Automatic Playlist…"
-msgstr "새 자동 연주 목록(_A)..."
-
-#: ../ui/altmenubar.ui.h:6
-msgid "_Load from File…"
-msgstr "파일 불러오기(_L)..."
-
-#: ../ui/altmenubar.ui.h:7
-msgid "_Save to File…"
-msgstr "파일로 저장(_S)..."
-
-#: ../ui/altmenubar.ui.h:8
-msgid "_Edit…"
-msgstr "편집(_E)..."
-
-#: ../ui/altmenubar.ui.h:9
-msgid "_Delete"
-msgstr "삭제(_D)"
-
-#: ../ui/altmenubar.ui.h:10
-msgid "Pr_operties"
-msgstr "속성(_O)"
-
-#: ../ui/altmenubar.ui.h:11
-msgid "_Close"
-msgstr "닫기(_C)"
-
-#: ../ui/altmenubar.ui.h:12
-msgid "_Edit"
-msgstr "편집(_E)"
-
-#: ../ui/altmenubar.ui.h:13
-msgid "Cu_t"
-msgstr "잘라내기(_T)"
-
-#: ../ui/altmenubar.ui.h:14
-msgid "_Copy"
-msgstr "복사(_C)"
-
-#: ../ui/altmenubar.ui.h:15
-msgid "_Paste"
-msgstr "붙여넣기(_P)"
-
-#: ../ui/altmenubar.ui.h:16
-msgid "Select _All"
-msgstr "모두 선택(_A)"
-
-#: ../ui/altmenubar.ui.h:17
-msgid "D_eselect All"
-msgstr "모두 선택 해제(_E)"
-
-#: ../ui/altmenubar.ui.h:18
-msgid "Add _to Play Queue"
-msgstr "재생 대기열에 추가(_T)"
-
-#: ../ui/altmenubar.ui.h:19
-msgid "Add to _Playlist"
-msgstr "재생목록에 추가(_P)"
-
-#: ../ui/altmenubar.ui.h:20
-msgid "_New Playlist"
-msgstr "새 재생목록(_N)"
-
-#: ../ui/altmenubar.ui.h:21
-msgid "_Move to Trash"
-msgstr "휴지통으로 이동(_M)"
-
-#: ../ui/altmenubar.ui.h:22
-msgid "Prefere_nces"
-msgstr "환경설정(_N)"
-
-#: ../ui/altmenubar.ui.h:23
-msgid "_View"
-msgstr "보기(_V)"
-
-#: ../ui/altmenubar.ui.h:24
-msgid "_Fullscreen"
-msgstr "전체화면(_F)"
-
-#: ../ui/altmenubar.ui.h:25
-msgid "Side _Pane"
-msgstr ""
-
-#: ../ui/altmenubar.ui.h:26
-msgid "View _Queue as Side Pane"
-msgstr ""
-
-#: ../ui/altmenubar.ui.h:27
-msgid "S_tatusbar"
-msgstr "상태 표시줄(_T)"
-
-#: ../ui/altmenubar.ui.h:28
-msgid "_Song Position Slider"
-msgstr ""
-
-#: ../ui/altmenubar.ui.h:29
-msgid "_Album Art"
-msgstr "앨범 아트(_A)"
-
-#: ../ui/altmenubar.ui.h:30
-msgid "_Jump to Playing Song"
-msgstr "재생 중인 곡으로 이동(_J)"
-
-#: ../ui/altmenubar.ui.h:31
-msgid "_Control"
-msgstr ""
-
-#: ../ui/altmenubar.ui.h:32
-msgid "_Play"
-msgstr "재생(_P)"
-
-#: ../ui/altmenubar.ui.h:33
-msgid "Pre_vious"
-msgstr "이전(_V)"
-
-#: ../ui/altmenubar.ui.h:34
-msgid "_Next"
-msgstr "다음(_N)"
-
-#: ../ui/altmenubar.ui.h:35
-msgid "_Increase Volume"
-msgstr "음량 증가(_I)"
-
-#: ../ui/altmenubar.ui.h:36
-msgid "_Decrease Volume"
-msgstr "음량 감소(_D)"
-
-#: ../ui/altmenubar.ui.h:37
-msgid "Sh_uffle"
-msgstr "임의 재생(_U)"
-
-#: ../ui/altmenubar.ui.h:38
-msgid "_Repeat"
-msgstr "반복(_R)"
-
-#: ../ui/altmenubar.ui.h:39
-msgid "_Tools"
-msgstr "도구(_T)"
-
-#: ../ui/altmenubar.ui.h:40
-msgid "Plu_gins…"
-msgstr "플러그인(_G)..."
-
-#: ../ui/altmenubar.ui.h:41
-msgid "_Help"
-msgstr "도움말(_H)"
-
-#: ../ui/altmenubar.ui.h:42
-msgid "_Contents"
-msgstr "내용(_C)"
-
-#: ../ui/altmenubar.ui.h:43
-msgid "_About"
-msgstr "정보(_A)"

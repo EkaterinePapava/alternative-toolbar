@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alternative-toolbar\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2023-03-28 13:44+0200\n"
-"PO-Revision-Date: 2023-03-28 11:53+0000\n"
-"Last-Translator: Sebastien Bacher <seb128@ubuntu.com>\n"
+"POT-Creation-Date: 2025-12-01 14:35+0000\n"
+"PO-Revision-Date: 2025-12-01 21:44+0000\n"
+"Last-Translator: Sebastien Bacher <sebastien.bacher@canonical.com>\n"
 "Language-Team: French <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-11-21 20:00+0000\n"
-"X-Generator: Launchpad (build 5c5453089af6e124865a31f368febff22e0acc72)\n"
+"X-Launchpad-Export-Date: 2025-12-14 16:28+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 
 #: ../alternative-toolbar.py:228 ../alternative-toolbar.py:231
 msgid "Search"
@@ -54,7 +54,7 @@ msgid "Show or hide the source toolbar"
 msgstr "Afficher ou masquer la barre d’outils des sources"
 
 #. define .plugin text strings used for translation
-#: ../alternative-toolbar.py:554 ../alttoolbar_plugins.py:385
+#: ../alternative-toolbar.py:554
 msgid "Alternative Toolbar"
 msgstr "Barre d’outils alternative"
 
@@ -93,38 +93,6 @@ msgstr "Récemment lues"
 #: ../alttoolbar_controller.py:646
 msgid "Podcasts"
 msgstr "Podcasts"
-
-#: ../alttoolbar_plugins.py:116
-msgid "The plugin cannot be enabled"
-msgstr "Le greffon ne peut pas être activé"
-
-#: ../alttoolbar_plugins.py:246
-msgid "Configure Plugins"
-msgstr "Configurer les greffons"
-
-#: ../alttoolbar_plugins.py:333
-msgid "About this plugin"
-msgstr "À propos de ce greffon"
-
-#: ../alttoolbar_plugins.py:365
-msgid "Version: "
-msgstr "Version : "
-
-#: ../alttoolbar_plugins.py:390
-msgid "Developer:"
-msgstr "Développeur :"
-
-#: ../alttoolbar_plugins.py:402
-msgid "Designer:"
-msgstr ""
-
-#: ../alttoolbar_plugins.py:425
-msgid "Help"
-msgstr "Aide"
-
-#: ../alttoolbar_plugins.py:433
-msgid "Homepage"
-msgstr "Site web"
 
 #: ../alttoolbar_preferences.py:307
 msgid "Restart"
@@ -309,175 +277,3 @@ msgstr "Lire la piste suivante"
 #: ../ui/alttoolbar.ui.h:5
 msgid "Play the tracks in random order"
 msgstr "Lire les pistes en ordre aléatoire"
-
-#: ../ui/altmenubar.ui.h:1
-msgid "_File"
-msgstr "_Fichier"
-
-#: ../ui/altmenubar.ui.h:2
-msgid "_Add Music"
-msgstr "_Ajouter de la musique"
-
-#: ../ui/altmenubar.ui.h:3
-msgid "_Playlist"
-msgstr "_Liste de lecture"
-
-#: ../ui/altmenubar.ui.h:4
-msgid "_New Playlist…"
-msgstr "_Nouvelle liste de lecture…"
-
-#: ../ui/altmenubar.ui.h:5
-msgid "New _Automatic Playlist…"
-msgstr "Nouvelle liste de lecture _automatique…"
-
-#: ../ui/altmenubar.ui.h:6
-msgid "_Load from File…"
-msgstr "_Charger depuis un fichier…"
-
-#: ../ui/altmenubar.ui.h:7
-msgid "_Save to File…"
-msgstr "_Sauvegarder dans un fichier…"
-
-#: ../ui/altmenubar.ui.h:8
-msgid "_Edit…"
-msgstr "É_dition…"
-
-#: ../ui/altmenubar.ui.h:9
-msgid "_Delete"
-msgstr "_Supprimer"
-
-#: ../ui/altmenubar.ui.h:10
-msgid "Pr_operties"
-msgstr "_Propriétés"
-
-#: ../ui/altmenubar.ui.h:11
-msgid "_Close"
-msgstr "_Fermer"
-
-#: ../ui/altmenubar.ui.h:12
-msgid "_Edit"
-msgstr "_Modifier"
-
-#: ../ui/altmenubar.ui.h:13
-msgid "Cu_t"
-msgstr "Co_uper"
-
-#: ../ui/altmenubar.ui.h:14
-msgid "_Copy"
-msgstr "_Copier"
-
-#: ../ui/altmenubar.ui.h:15
-msgid "_Paste"
-msgstr "Co_ller"
-
-#: ../ui/altmenubar.ui.h:16
-msgid "Select _All"
-msgstr "_Tout sélectionner"
-
-#: ../ui/altmenubar.ui.h:17
-msgid "D_eselect All"
-msgstr "Tout _désélectionner"
-
-#: ../ui/altmenubar.ui.h:18
-msgid "Add _to Play Queue"
-msgstr "A_jouter à la liste d'attente"
-
-#: ../ui/altmenubar.ui.h:19
-msgid "Add to _Playlist"
-msgstr "Ajouter à la _liste de lecture"
-
-#: ../ui/altmenubar.ui.h:20
-msgid "_New Playlist"
-msgstr "_Nouvelle liste de lecture"
-
-#: ../ui/altmenubar.ui.h:21
-msgid "_Move to Trash"
-msgstr "_Mettre à la corbeille"
-
-#: ../ui/altmenubar.ui.h:22
-msgid "Prefere_nces"
-msgstr "_Préférences"
-
-#: ../ui/altmenubar.ui.h:23
-msgid "_View"
-msgstr "Afficha_ge"
-
-#: ../ui/altmenubar.ui.h:24
-msgid "_Fullscreen"
-msgstr "Pl_ein écran"
-
-#: ../ui/altmenubar.ui.h:25
-msgid "Side _Pane"
-msgstr "Panneau _latéral"
-
-#: ../ui/altmenubar.ui.h:26
-msgid "View _Queue as Side Pane"
-msgstr "Afficher la _file d'attente dans un panneau latéral"
-
-#: ../ui/altmenubar.ui.h:27
-msgid "S_tatusbar"
-msgstr "Barre d'é_tat"
-
-#: ../ui/altmenubar.ui.h:28
-msgid "_Song Position Slider"
-msgstr "Glissière de position du _morceau"
-
-#: ../ui/altmenubar.ui.h:29
-msgid "_Album Art"
-msgstr "Pochette de l'_album"
-
-#: ../ui/altmenubar.ui.h:30
-msgid "_Jump to Playing Song"
-msgstr "_Aller au morceau en cours de lecture"
-
-#: ../ui/altmenubar.ui.h:31
-msgid "_Control"
-msgstr "_Contrôles"
-
-#: ../ui/altmenubar.ui.h:32
-msgid "_Play"
-msgstr "_Lire"
-
-#: ../ui/altmenubar.ui.h:33
-msgid "Pre_vious"
-msgstr "Pré_cédent"
-
-#: ../ui/altmenubar.ui.h:34
-msgid "_Next"
-msgstr "_Suivant"
-
-#: ../ui/altmenubar.ui.h:35
-msgid "_Increase Volume"
-msgstr "Au_gmenter le volume"
-
-#: ../ui/altmenubar.ui.h:36
-msgid "_Decrease Volume"
-msgstr "D_iminuer le volume"
-
-#: ../ui/altmenubar.ui.h:37
-msgid "Sh_uffle"
-msgstr "_Aléatoire"
-
-#: ../ui/altmenubar.ui.h:38
-msgid "_Repeat"
-msgstr "_En boucle"
-
-#: ../ui/altmenubar.ui.h:39
-msgid "_Tools"
-msgstr "_Outils"
-
-#: ../ui/altmenubar.ui.h:40
-msgid "Plu_gins…"
-msgstr "_Greffons…"
-
-#: ../ui/altmenubar.ui.h:41
-msgid "_Help"
-msgstr "Aid_e"
-
-#: ../ui/altmenubar.ui.h:42
-msgid "_Contents"
-msgstr "_Contenu"
-
-#: ../ui/altmenubar.ui.h:43
-msgid "_About"
-msgstr "_À propos"

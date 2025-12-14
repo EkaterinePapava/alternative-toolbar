@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alternative-toolbar\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2021-04-24 10:33+0100\n"
-"PO-Revision-Date: 2023-03-28 17:39+0000\n"
+"POT-Creation-Date: 2025-12-01 14:35+0000\n"
+"PO-Revision-Date: 2021-10-05 17:25+0000\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-11-21 20:16+0000\n"
-"X-Generator: Launchpad (build 5c5453089af6e124865a31f368febff22e0acc72)\n"
+"X-Launchpad-Export-Date: 2025-12-14 16:28+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 
 #: ../alternative-toolbar.py:228 ../alternative-toolbar.py:231
 msgid "Search"
@@ -52,14 +52,6 @@ msgstr "Vis Kilde-værktøjslinje"
 #: ../alternative-toolbar.py:273
 msgid "Show or hide the source toolbar"
 msgstr "Vis eller gem kilde værktøjslinjen"
-
-#: ../alternative-toolbar.py:516
-msgid "Restart Rhythmbox"
-msgstr "Genstart Rhythmbox"
-
-#: ../alternative-toolbar.py:517
-msgid "Please restart Rhythmbox for the changes to take effect."
-msgstr "Ændringerne træder ikke i kraft, før Rhythmbox genstartes."
 
 #. define .plugin text strings used for translation
 #: ../alternative-toolbar.py:554
@@ -265,20 +257,6 @@ msgstr ""
 "bedre kilde-organisering og mulighed for at åbne og lukke kategorier."
 
 #: ../ui/altpreferences.ui.h:27
-msgid "Enhanced plugins dialog"
-msgstr "Forbedret plugin-dialog"
-
-#: ../ui/altpreferences.ui.h:28
-msgid ""
-"Show or hide redesigned plugins dialog. It features switches instead of "
-"checkboxes and inline toolbar with symbolic icons .  Works best with Gnome "
-"based desktop environments."
-msgstr ""
-"Vis eller gem afspillerens redsignede plugin-dialog. Den har knapper i "
-"stedet for markerings-bokse og indbygget værktøjslinje med ikoner. Virker "
-"bedst med Gnome-baserede skrivebords-miljøer."
-
-#: ../ui/altpreferences.ui.h:27
 msgid "Dark theme if available"
 msgstr "Mørkt tema hvis tilgængeligt"
 
@@ -297,15 +275,3 @@ msgstr "Spil det næste nummer"
 #: ../ui/alttoolbar.ui.h:5
 msgid "Play the tracks in random order"
 msgstr "Spil numre i tilfældig orden"
-
-#~ msgid "Import"
-#~ msgstr "Importér"
-
-#~ msgid "_Help"
-#~ msgstr "_Hjælp"
-
-#~ msgid "_About"
-#~ msgstr "_Om"
-
-#~ msgid "_Quit"
-#~ msgstr "_Afslut"

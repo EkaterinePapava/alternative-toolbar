@@ -7,66 +7,58 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alternative-toolbar\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2021-07-29 19:16+0000\n"
-"PO-Revision-Date: 2021-08-25 12:27+0000\n"
+"POT-Creation-Date: 2025-12-01 14:35+0000\n"
+"PO-Revision-Date: 2023-09-27 06:20+0000\n"
 "Last-Translator: Yaron <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-09-14 18:32+0000\n"
-"X-Generator: Launchpad (build d297c56d4f761367bf9bf563de1abea41f9b4f9e)\n"
+"X-Launchpad-Export-Date: 2025-12-14 16:28+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 
-#: ../alternative-toolbar.py:241 ../alternative-toolbar.py:244
+#: ../alternative-toolbar.py:228 ../alternative-toolbar.py:231
 msgid "Search"
 msgstr "חיפוש"
 
-#: ../alternative-toolbar.py:251
+#: ../alternative-toolbar.py:238
 msgid "Seek Backward"
 msgstr "מעבר אחורה"
 
-#: ../alternative-toolbar.py:254
+#: ../alternative-toolbar.py:241
 msgid "Seek backward, in current track, by 5 seconds."
 msgstr "מעבר אחורה, ברצועה הנוכחית, 5 שניות."
 
-#: ../alternative-toolbar.py:258
+#: ../alternative-toolbar.py:245
 msgid "Seek Forward"
 msgstr "מעבר קדימה"
 
-#: ../alternative-toolbar.py:262
+#: ../alternative-toolbar.py:249
 msgid "Seek forward, in current track, by 10 seconds."
 msgstr "מעבר קדימה, ברצועה הנוכחית, 10 שניות."
 
-#: ../alternative-toolbar.py:274
+#: ../alternative-toolbar.py:261
 msgid "Show Play-Controls Toolbar"
 msgstr "הצגת סרגל כלים פקדי נגינה"
 
-#: ../alternative-toolbar.py:278
+#: ../alternative-toolbar.py:265
 msgid "Show or hide the play-controls toolbar"
 msgstr "הצגה או הסתרה של סרגל כלים פקדי נגינה"
 
-#: ../alternative-toolbar.py:283
+#: ../alternative-toolbar.py:270
 msgid "Show Source Toolbar"
 msgstr "הצגת סרגל כלי מקור"
 
-#: ../alternative-toolbar.py:286
+#: ../alternative-toolbar.py:273
 msgid "Show or hide the source toolbar"
 msgstr "הצגה או הסתרה של סרגל כלי המקור"
 
-#: ../alternative-toolbar.py:516
-msgid "Restart Rhythmbox"
-msgstr "הפעלת Rhythmbox מחדש"
-
-#: ../alternative-toolbar.py:517
-msgid "Please restart Rhythmbox for the changes to take effect."
-msgstr "נא להפעיל את Rhythmbox כדי שהשינויים יחולו."
-
 #. define .plugin text strings used for translation
-#: ../alternative-toolbar.py:584
+#: ../alternative-toolbar.py:554
 msgid "Alternative Toolbar"
 msgstr "סרגל כלים חלופי"
 
-#: ../alternative-toolbar.py:587
+#: ../alternative-toolbar.py:557
 msgid ""
 "Replace the Rhythmbox large toolbar with a Client-Side Decorated or Compact "
 "Toolbar which can be hidden"
@@ -102,7 +94,7 @@ msgstr "התנגנו לאחרונה"
 msgid "Podcasts"
 msgstr "פודקאסטים"
 
-#: ../alttoolbar_preferences.py:314
+#: ../alttoolbar_preferences.py:307
 msgid "Restart"
 msgstr "הפעלה מחדש"
 
@@ -127,7 +119,7 @@ msgid "Songs"
 msgstr "שירים"
 
 #: ../alttoolbar_type.py:1475 ../alttoolbar_type.py:1559
-#: ../ui/altpreferences.ui.h:30 ../ui/altlibrary.ui.h:2
+#: ../ui/altpreferences.ui.h:28 ../ui/altlibrary.ui.h:2
 msgid "Categories"
 msgstr "קטגוריות"
 
@@ -264,20 +256,6 @@ msgstr ""
 "משופרים, ארגון טוב יותר של מקורות והיכולת להרחיב ולצמצם קטגוריות."
 
 #: ../ui/altpreferences.ui.h:27
-msgid "Enhanced plugins dialog"
-msgstr "תיבת דו־שיח תוספים מורחבת"
-
-#: ../ui/altpreferences.ui.h:28
-msgid ""
-"Show or hide redesigned plugins dialog. It features switches instead of "
-"checkboxes and inline toolbar with symbolic icons .  Works best with Gnome "
-"based desktop environments."
-msgstr ""
-"הצגה או הסתרה של חלון תוספים שעוצב מחדש. החלון מציג מתגים במקום תיבות סימון "
-"וסרגל כלים פנימי עם סמלים ייצוגיים. עובד הכי טוב עם סביבות עבודה מבוססות "
-"Gnome."
-
-#: ../ui/altpreferences.ui.h:29
 msgid "Dark theme if available"
 msgstr "ערכת עיצוב כהה אם ניתן"
 

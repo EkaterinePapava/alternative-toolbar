@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alternative-toolbar\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2023-03-28 13:44+0200\n"
-"PO-Revision-Date: 2023-09-30 13:07+0000\n"
+"POT-Creation-Date: 2025-12-01 14:35+0000\n"
+"PO-Revision-Date: 2025-12-01 20:59+0000\n"
 "Last-Translator: Marek Hladík <mhladik@seznam.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-11-21 20:00+0000\n"
-"X-Generator: Launchpad (build 5c5453089af6e124865a31f368febff22e0acc72)\n"
+"X-Launchpad-Export-Date: 2025-12-14 16:28+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 
 #: ../alternative-toolbar.py:228 ../alternative-toolbar.py:231
 msgid "Search"
@@ -54,7 +54,7 @@ msgid "Show or hide the source toolbar"
 msgstr "Zobrazit nebo skrýt panel nástrojů zdroje"
 
 #. define .plugin text strings used for translation
-#: ../alternative-toolbar.py:554 ../alttoolbar_plugins.py:385
+#: ../alternative-toolbar.py:554
 msgid "Alternative Toolbar"
 msgstr "Alternative Toolbar"
 
@@ -93,38 +93,6 @@ msgstr "Nedávno hrané"
 #: ../alttoolbar_controller.py:646
 msgid "Podcasts"
 msgstr "Podcasty"
-
-#: ../alttoolbar_plugins.py:116
-msgid "The plugin cannot be enabled"
-msgstr "Zásuvný modul nelze povolit"
-
-#: ../alttoolbar_plugins.py:246
-msgid "Configure Plugins"
-msgstr "Nastavit zásuvné moduly"
-
-#: ../alttoolbar_plugins.py:333
-msgid "About this plugin"
-msgstr "Informace o zásuvném modulu"
-
-#: ../alttoolbar_plugins.py:365
-msgid "Version: "
-msgstr "Verze: "
-
-#: ../alttoolbar_plugins.py:390
-msgid "Developer:"
-msgstr "Vývojář:"
-
-#: ../alttoolbar_plugins.py:402
-msgid "Designer:"
-msgstr "Designer:"
-
-#: ../alttoolbar_plugins.py:425
-msgid "Help"
-msgstr "Nápověda"
-
-#: ../alttoolbar_plugins.py:433
-msgid "Homepage"
-msgstr "Domovská stránka"
 
 #: ../alttoolbar_preferences.py:307
 msgid "Restart"
@@ -308,175 +276,3 @@ msgstr "Přehrát následující skladbu"
 #: ../ui/alttoolbar.ui.h:5
 msgid "Play the tracks in random order"
 msgstr "Přehrát skladby v náhodném pořadí"
-
-#: ../ui/altmenubar.ui.h:1
-msgid "_File"
-msgstr "_Soubor"
-
-#: ../ui/altmenubar.ui.h:2
-msgid "_Add Music"
-msgstr "Přid_at hudbu"
-
-#: ../ui/altmenubar.ui.h:3
-msgid "_Playlist"
-msgstr "_Seznam skladeb"
-
-#: ../ui/altmenubar.ui.h:4
-msgid "_New Playlist…"
-msgstr "Nový _seznam skladeb…"
-
-#: ../ui/altmenubar.ui.h:5
-msgid "New _Automatic Playlist…"
-msgstr "Nový _automatický seznam skladeb…"
-
-#: ../ui/altmenubar.ui.h:6
-msgid "_Load from File…"
-msgstr "_Nahrát ze souboru…"
-
-#: ../ui/altmenubar.ui.h:7
-msgid "_Save to File…"
-msgstr "_Uložit do souboru…"
-
-#: ../ui/altmenubar.ui.h:8
-msgid "_Edit…"
-msgstr "_Upravit…"
-
-#: ../ui/altmenubar.ui.h:9
-msgid "_Delete"
-msgstr "_Odstranit"
-
-#: ../ui/altmenubar.ui.h:10
-msgid "Pr_operties"
-msgstr "Vlastn_osti"
-
-#: ../ui/altmenubar.ui.h:11
-msgid "_Close"
-msgstr "_Zavřít"
-
-#: ../ui/altmenubar.ui.h:12
-msgid "_Edit"
-msgstr "_Upravit"
-
-#: ../ui/altmenubar.ui.h:13
-msgid "Cu_t"
-msgstr "Vyjmou_t"
-
-#: ../ui/altmenubar.ui.h:14
-msgid "_Copy"
-msgstr "_Kopírovat"
-
-#: ../ui/altmenubar.ui.h:15
-msgid "_Paste"
-msgstr "_Vložit"
-
-#: ../ui/altmenubar.ui.h:16
-msgid "Select _All"
-msgstr "Vybr_at vše"
-
-#: ../ui/altmenubar.ui.h:17
-msgid "D_eselect All"
-msgstr "_Zrušit výběr"
-
-#: ../ui/altmenubar.ui.h:18
-msgid "Add _to Play Queue"
-msgstr "Přidat do _fronty"
-
-#: ../ui/altmenubar.ui.h:19
-msgid "Add to _Playlist"
-msgstr "_Přidat do seznamu skladeb"
-
-#: ../ui/altmenubar.ui.h:20
-msgid "_New Playlist"
-msgstr "_Nový seznam skladeb"
-
-#: ../ui/altmenubar.ui.h:21
-msgid "_Move to Trash"
-msgstr "Přesunout do _koše"
-
-#: ../ui/altmenubar.ui.h:22
-msgid "Prefere_nces"
-msgstr "_Předvolby"
-
-#: ../ui/altmenubar.ui.h:23
-msgid "_View"
-msgstr "_Zobrazit"
-
-#: ../ui/altmenubar.ui.h:24
-msgid "_Fullscreen"
-msgstr "_Celá obrazovka"
-
-#: ../ui/altmenubar.ui.h:25
-msgid "Side _Pane"
-msgstr "Postranní _panel"
-
-#: ../ui/altmenubar.ui.h:26
-msgid "View _Queue as Side Pane"
-msgstr "Zobrazit _frontu v bočním panelu"
-
-#: ../ui/altmenubar.ui.h:27
-msgid "S_tatusbar"
-msgstr "S_tavová lišta"
-
-#: ../ui/altmenubar.ui.h:28
-msgid "_Song Position Slider"
-msgstr "Po_suvník pozice ve skladbě"
-
-#: ../ui/altmenubar.ui.h:29
-msgid "_Album Art"
-msgstr "Obal _alba"
-
-#: ../ui/altmenubar.ui.h:30
-msgid "_Jump to Playing Song"
-msgstr "_Přejít na přehrávanou skladbu"
-
-#: ../ui/altmenubar.ui.h:31
-msgid "_Control"
-msgstr "_Ovládání"
-
-#: ../ui/altmenubar.ui.h:32
-msgid "_Play"
-msgstr "_Přehrát"
-
-#: ../ui/altmenubar.ui.h:33
-msgid "Pre_vious"
-msgstr "Pře_dchozí"
-
-#: ../ui/altmenubar.ui.h:34
-msgid "_Next"
-msgstr "_Následující"
-
-#: ../ui/altmenubar.ui.h:35
-msgid "_Increase Volume"
-msgstr "Z_výšit hlasitost"
-
-#: ../ui/altmenubar.ui.h:36
-msgid "_Decrease Volume"
-msgstr "S_nížit hlasitost"
-
-#: ../ui/altmenubar.ui.h:37
-msgid "Sh_uffle"
-msgstr "Za_míchat"
-
-#: ../ui/altmenubar.ui.h:38
-msgid "_Repeat"
-msgstr "Opa_kovat"
-
-#: ../ui/altmenubar.ui.h:39
-msgid "_Tools"
-msgstr "Nás_troje"
-
-#: ../ui/altmenubar.ui.h:40
-msgid "Plu_gins…"
-msgstr "Zásuvné _moduly…"
-
-#: ../ui/altmenubar.ui.h:41
-msgid "_Help"
-msgstr "_Nápověda"
-
-#: ../ui/altmenubar.ui.h:42
-msgid "_Contents"
-msgstr "_Obsah"
-
-#: ../ui/altmenubar.ui.h:43
-msgid "_About"
-msgstr "O _aplikaci"

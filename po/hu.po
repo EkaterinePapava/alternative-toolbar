@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: alternative-toolbar\n"
 "Report-Msgid-Bugs-To: https://github.com/fossfreedom/alternative-"
 "toolbar/issues\n"
-"POT-Creation-Date: 2023-03-28 13:44+0200\n"
-"PO-Revision-Date: 2023-09-22 08:24+0000\n"
+"POT-Creation-Date: 2025-12-01 14:35+0000\n"
+"PO-Revision-Date: 2025-12-01 21:52+0000\n"
 "Last-Translator: Balázs Úr <Unknown>\n"
 "Language-Team: Hungarian <openscope at fsf dot hu>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-11-21 20:00+0000\n"
-"X-Generator: Launchpad (build 5c5453089af6e124865a31f368febff22e0acc72)\n"
+"X-Launchpad-Export-Date: 2025-12-14 16:28+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 "Language: hu\n"
 
 #: ../alternative-toolbar.py:228 ../alternative-toolbar.py:231
@@ -56,7 +56,7 @@ msgid "Show or hide the source toolbar"
 msgstr "A forrás eszköztár megjelenítése vagy elrejtése"
 
 #. define .plugin text strings used for translation
-#: ../alternative-toolbar.py:554 ../alttoolbar_plugins.py:385
+#: ../alternative-toolbar.py:554
 msgid "Alternative Toolbar"
 msgstr "Alternatív eszköztár"
 
@@ -95,38 +95,6 @@ msgstr "Legutóbb lejátszott"
 #: ../alttoolbar_controller.py:646
 msgid "Podcasts"
 msgstr "Podcastok"
-
-#: ../alttoolbar_plugins.py:116
-msgid "The plugin cannot be enabled"
-msgstr "A bővítményt nem lehet engedélyezni"
-
-#: ../alttoolbar_plugins.py:246
-msgid "Configure Plugins"
-msgstr "Bővítmények beállítása"
-
-#: ../alttoolbar_plugins.py:333
-msgid "About this plugin"
-msgstr "A bővítmény névjegye"
-
-#: ../alttoolbar_plugins.py:365
-msgid "Version: "
-msgstr "Verzió: "
-
-#: ../alttoolbar_plugins.py:390
-msgid "Developer:"
-msgstr "Fejlesztő:"
-
-#: ../alttoolbar_plugins.py:402
-msgid "Designer:"
-msgstr "Tervező:"
-
-#: ../alttoolbar_plugins.py:425
-msgid "Help"
-msgstr "Súgó"
-
-#: ../alttoolbar_plugins.py:433
-msgid "Homepage"
-msgstr "Honlap"
 
 #: ../alttoolbar_preferences.py:307
 msgid "Restart"
@@ -313,175 +281,3 @@ msgstr "A következő szám lejátszása"
 #: ../ui/alttoolbar.ui.h:5
 msgid "Play the tracks in random order"
 msgstr "A számok lejátszása véletlen sorrendben"
-
-#: ../ui/altmenubar.ui.h:1
-msgid "_File"
-msgstr "_Fájl"
-
-#: ../ui/altmenubar.ui.h:2
-msgid "_Add Music"
-msgstr "Zene _hozzáadása"
-
-#: ../ui/altmenubar.ui.h:3
-msgid "_Playlist"
-msgstr "_Lejátszási lista"
-
-#: ../ui/altmenubar.ui.h:4
-msgid "_New Playlist…"
-msgstr "Ú_j lejátszási lista…"
-
-#: ../ui/altmenubar.ui.h:5
-msgid "New _Automatic Playlist…"
-msgstr "Új _automatikus lejátszási lista…"
-
-#: ../ui/altmenubar.ui.h:6
-msgid "_Load from File…"
-msgstr "_Betöltés fájlból…"
-
-#: ../ui/altmenubar.ui.h:7
-msgid "_Save to File…"
-msgstr "_Mentés fájlba…"
-
-#: ../ui/altmenubar.ui.h:8
-msgid "_Edit…"
-msgstr "S_zerkesztés…"
-
-#: ../ui/altmenubar.ui.h:9
-msgid "_Delete"
-msgstr "_Törlés"
-
-#: ../ui/altmenubar.ui.h:10
-msgid "Pr_operties"
-msgstr "Tulajd_onságok"
-
-#: ../ui/altmenubar.ui.h:11
-msgid "_Close"
-msgstr "_Bezárás"
-
-#: ../ui/altmenubar.ui.h:12
-msgid "_Edit"
-msgstr "S_zerkesztés"
-
-#: ../ui/altmenubar.ui.h:13
-msgid "Cu_t"
-msgstr "_Kivágás"
-
-#: ../ui/altmenubar.ui.h:14
-msgid "_Copy"
-msgstr "_Másolás"
-
-#: ../ui/altmenubar.ui.h:15
-msgid "_Paste"
-msgstr "_Beillesztés"
-
-#: ../ui/altmenubar.ui.h:16
-msgid "Select _All"
-msgstr "Összes _kijelölése"
-
-#: ../ui/altmenubar.ui.h:17
-msgid "D_eselect All"
-msgstr "Összes kijelölésének megs_züntetése"
-
-#: ../ui/altmenubar.ui.h:18
-msgid "Add _to Play Queue"
-msgstr "Hozzáadás a lejá_tszási sorhoz"
-
-#: ../ui/altmenubar.ui.h:19
-msgid "Add to _Playlist"
-msgstr "Hozzáadás _lejátszási listához"
-
-#: ../ui/altmenubar.ui.h:20
-msgid "_New Playlist"
-msgstr "Ú_j lejátszási lista"
-
-#: ../ui/altmenubar.ui.h:21
-msgid "_Move to Trash"
-msgstr "Áthelyezés a _kukába"
-
-#: ../ui/altmenubar.ui.h:22
-msgid "Prefere_nces"
-msgstr "_Beállítások"
-
-#: ../ui/altmenubar.ui.h:23
-msgid "_View"
-msgstr "_Nézet"
-
-#: ../ui/altmenubar.ui.h:24
-msgid "_Fullscreen"
-msgstr "_Teljes képernyő"
-
-#: ../ui/altmenubar.ui.h:25
-msgid "Side _Pane"
-msgstr "Oldal_panel"
-
-#: ../ui/altmenubar.ui.h:26
-msgid "View _Queue as Side Pane"
-msgstr "_Sor megtekintése oldalpanelként"
-
-#: ../ui/altmenubar.ui.h:27
-msgid "S_tatusbar"
-msgstr "Á_llapotsor"
-
-#: ../ui/altmenubar.ui.h:28
-msgid "_Song Position Slider"
-msgstr "_Dal pozíciójának csúszkája"
-
-#: ../ui/altmenubar.ui.h:29
-msgid "_Album Art"
-msgstr "_Album borítója"
-
-#: ../ui/altmenubar.ui.h:30
-msgid "_Jump to Playing Song"
-msgstr "_Ugrás a lejátszott dalra"
-
-#: ../ui/altmenubar.ui.h:31
-msgid "_Control"
-msgstr "_Vezérlés"
-
-#: ../ui/altmenubar.ui.h:32
-msgid "_Play"
-msgstr "_Lejátszás"
-
-#: ../ui/altmenubar.ui.h:33
-msgid "Pre_vious"
-msgstr "_Előző"
-
-#: ../ui/altmenubar.ui.h:34
-msgid "_Next"
-msgstr "_Következő"
-
-#: ../ui/altmenubar.ui.h:35
-msgid "_Increase Volume"
-msgstr "Hangerő _növelése"
-
-#: ../ui/altmenubar.ui.h:36
-msgid "_Decrease Volume"
-msgstr "Hangerő _csökkentése"
-
-#: ../ui/altmenubar.ui.h:37
-msgid "Sh_uffle"
-msgstr "Ke_verés"
-
-#: ../ui/altmenubar.ui.h:38
-msgid "_Repeat"
-msgstr "_Ismétlés"
-
-#: ../ui/altmenubar.ui.h:39
-msgid "_Tools"
-msgstr "_Eszközök"
-
-#: ../ui/altmenubar.ui.h:40
-msgid "Plu_gins…"
-msgstr "_Bővítmények…"
-
-#: ../ui/altmenubar.ui.h:41
-msgid "_Help"
-msgstr "_Súgó"
-
-#: ../ui/altmenubar.ui.h:42
-msgid "_Contents"
-msgstr "_Tartalom"
-
-#: ../ui/altmenubar.ui.h:43
-msgid "_About"
-msgstr "_Névjegy"

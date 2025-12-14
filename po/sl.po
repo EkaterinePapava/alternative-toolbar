@@ -7,54 +7,58 @@ msgid ""
 msgstr ""
 "Project-Id-Version: alternative-toolbar\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2019-10-29 05:12+0000\n"
-"PO-Revision-Date: 2018-09-18 09:01+0000\n"
-"Last-Translator: Sebastien Bacher <seb128@ubuntu.com>\n"
+"POT-Creation-Date: 2025-12-01 14:35+0000\n"
+"PO-Revision-Date: 2024-04-21 18:54+0000\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <sl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-01-27 19:32+0000\n"
-"X-Generator: Launchpad (build b8d1327fd820d6bf500589d6da587d5037c7d88e)\n"
+"X-Launchpad-Export-Date: 2025-12-14 16:28+0000\n"
+"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
 
-#: ../alternative-toolbar.py:235
+#: ../alternative-toolbar.py:228 ../alternative-toolbar.py:231
+msgid "Search"
+msgstr "Išči"
+
+#: ../alternative-toolbar.py:238
 msgid "Seek Backward"
 msgstr "Previj nazaj"
 
-#: ../alternative-toolbar.py:238
+#: ../alternative-toolbar.py:241
 msgid "Seek backward, in current track, by 5 seconds."
 msgstr "Previj trenutno skladbo nazaj za 5 sekund."
 
-#: ../alternative-toolbar.py:242
+#: ../alternative-toolbar.py:245
 msgid "Seek Forward"
 msgstr "Previj naprej"
 
-#: ../alternative-toolbar.py:246
+#: ../alternative-toolbar.py:249
 msgid "Seek forward, in current track, by 10 seconds."
 msgstr "Previj trenutno skladbo naprej za 5 sekund."
 
-#: ../alternative-toolbar.py:258
+#: ../alternative-toolbar.py:261
 msgid "Show Play-Controls Toolbar"
 msgstr "Pokaži orodno vrstico z nadzornimi tipkami predvajanja"
 
-#: ../alternative-toolbar.py:262
+#: ../alternative-toolbar.py:265
 msgid "Show or hide the play-controls toolbar"
 msgstr "Pokaži ali skrij orodno vrstico z nadzornimi tipkami predvajanja"
 
-#: ../alternative-toolbar.py:267
+#: ../alternative-toolbar.py:270
 msgid "Show Source Toolbar"
 msgstr "Pokaži izvorno orodno vrstico"
 
-#: ../alternative-toolbar.py:270
+#: ../alternative-toolbar.py:273
 msgid "Show or hide the source toolbar"
 msgstr "Pokaži ali skrij izvorno orodno vrstico"
 
 #. define .plugin text strings used for translation
-#: ../alternative-toolbar.py:551
+#: ../alternative-toolbar.py:554
 msgid "Alternative Toolbar"
 msgstr "Nadomestna orodna vrstica"
 
-#: ../alternative-toolbar.py:554
+#: ../alternative-toolbar.py:557
 msgid ""
 "Replace the Rhythmbox large toolbar with a Client-Side Decorated or Compact "
 "Toolbar which can be hidden"
@@ -66,35 +70,31 @@ msgstr ""
 msgid "View All"
 msgstr "Pokaži vse"
 
-#: ../alttoolbar_controller.py:324
-msgid "Import"
-msgstr "Uvozi"
-
-#: ../alttoolbar_controller.py:542
+#: ../alttoolbar_controller.py:533
 msgid "Stations"
 msgstr "Postaje"
 
-#: ../alttoolbar_controller.py:571
+#: ../alttoolbar_controller.py:562
 msgid "Libre.fm"
 msgstr "Libre.fm"
 
-#: ../alttoolbar_controller.py:614
+#: ../alttoolbar_controller.py:605
 msgid "My Top Rated"
 msgstr "Moje najvišje ocenjene"
 
-#: ../alttoolbar_controller.py:618
+#: ../alttoolbar_controller.py:609
 msgid "Recently Added"
 msgstr "Nedavno dodano"
 
-#: ../alttoolbar_controller.py:622
+#: ../alttoolbar_controller.py:613
 msgid "Recently Played"
 msgstr "Nedavno predvajano"
 
-#: ../alttoolbar_controller.py:655
+#: ../alttoolbar_controller.py:646
 msgid "Podcasts"
 msgstr "Poddaje"
 
-#: ../alttoolbar_preferences.py:308
+#: ../alttoolbar_preferences.py:307
 msgid "Restart"
 msgstr "Ponovno zaženi"
 
@@ -114,16 +114,16 @@ msgstr "Drugi viri"
 msgid "Playlists"
 msgstr "Seznami predvajanja"
 
-#: ../alttoolbar_type.py:1478 ../ui/altlibrary.ui.h:1
+#: ../alttoolbar_type.py:1469 ../ui/altlibrary.ui.h:1
 msgid "Songs"
 msgstr "Skladbe"
 
-#: ../alttoolbar_type.py:1484 ../alttoolbar_type.py:1568
-#: ../ui/altpreferences.ui.h:26 ../ui/altlibrary.ui.h:2
+#: ../alttoolbar_type.py:1475 ../alttoolbar_type.py:1559
+#: ../ui/altpreferences.ui.h:28 ../ui/altlibrary.ui.h:2
 msgid "Categories"
 msgstr "Kategorije"
 
-#: ../alttoolbar_type.py:1552
+#: ../alttoolbar_type.py:1543
 msgid "Browse"
 msgstr "Brskaj"
 
@@ -137,14 +137,30 @@ msgid "Repeat the current track"
 msgstr "Ponovno predvajaj trenutno skladbo"
 
 #: ../ui/altpreferences.ui.h:1
+msgid "Top"
+msgstr "Na vrhu"
+
+#: ../ui/altpreferences.ui.h:2
+msgid "Bottom"
+msgstr "Na dnu"
+
+#: ../ui/altpreferences.ui.h:3
+msgid "Horizontal"
+msgstr "Vodoravno"
+
+#: ../ui/altpreferences.ui.h:4
+msgid "Vertical"
+msgstr "Navpično"
+
+#: ../ui/altpreferences.ui.h:5
 msgid "Restart the player for the changes to take effect."
 msgstr "Znova zaženi predvajalnik, da bodo spremembe začele veljati."
 
-#: ../ui/altpreferences.ui.h:2
+#: ../ui/altpreferences.ui.h:6
 msgid "Toolbar:"
 msgstr "Orodna vrstica"
 
-#: ../ui/altpreferences.ui.h:3
+#: ../ui/altpreferences.ui.h:7
 msgid ""
 "Best suitable for desktop\n"
 "environments like Gnome and Elementary."
@@ -152,15 +168,15 @@ msgstr ""
 "Najbolj primerno za namizna \n"
 "okolja, kot sta Gnome in elementary."
 
-#: ../ui/altpreferences.ui.h:5
+#: ../ui/altpreferences.ui.h:9
 msgid "Modern"
 msgstr "Moderno"
 
-#: ../ui/altpreferences.ui.h:6
+#: ../ui/altpreferences.ui.h:10
 msgid "Use compact controls"
 msgstr "Uporabi kompaktne nadzorne tipke"
 
-#: ../ui/altpreferences.ui.h:7
+#: ../ui/altpreferences.ui.h:11
 msgid ""
 "Display the playback controls in the toolbar in visually compact style "
 "instead of the standard rhythmbox style.\n"
@@ -170,15 +186,15 @@ msgstr ""
 "stilu namesto standardnega.\n"
 "Vedno omogočeno za način moderne orodne vrstice."
 
-#: ../ui/altpreferences.ui.h:9
+#: ../ui/altpreferences.ui.h:13
 msgid "Show:"
 msgstr "Pokaži:"
 
-#: ../ui/altpreferences.ui.h:10
+#: ../ui/altpreferences.ui.h:14
 msgid "Album/genre/year for playing song"
 msgstr "Album/žanr/leto za predvajanje skladbe"
 
-#: ../ui/altpreferences.ui.h:11
+#: ../ui/altpreferences.ui.h:15
 msgid ""
 "Display album/genre/year instead of song-artist-album.  Useful for those "
 "desktop-environments where song-artist-album is already displayed in the "
@@ -187,39 +203,39 @@ msgstr ""
 "Pokaži album/žanr/leto namesto pesem-umetnik-album. Uporabno za tista "
 "namizna okolja, kjer so pesem-umetnik-album že prikazani v naslovu okna."
 
-#: ../ui/altpreferences.ui.h:12
+#: ../ui/altpreferences.ui.h:16
 msgid "Tooltips for the playback controls"
 msgstr "Orodni namigi za nadzorne tipke predvajanja"
 
-#: ../ui/altpreferences.ui.h:13
+#: ../ui/altpreferences.ui.h:17
 msgid "Show or hide the tooltips for the playback controls."
 msgstr "Pokaži ali skrij orodne namige za nadzorne tipke predvajanja."
 
-#: ../ui/altpreferences.ui.h:14
+#: ../ui/altpreferences.ui.h:18
 msgid "Volume control"
 msgstr "Nadzor glasnosti"
 
-#: ../ui/altpreferences.ui.h:15
+#: ../ui/altpreferences.ui.h:19
 msgid "Show or hide the volume control."
 msgstr "Pokaži ali skrij nadzor glasnosti."
 
-#: ../ui/altpreferences.ui.h:16
+#: ../ui/altpreferences.ui.h:20
 msgid "Playback controls"
 msgstr "Nadzor predvajanja"
 
-#: ../ui/altpreferences.ui.h:17
+#: ../ui/altpreferences.ui.h:21
 msgid "Show or hide the playing controls on player startup."
 msgstr "Pokaži ali skrij nadzorne tipke predvajanja ob zagonu predvajalnika."
 
-#: ../ui/altpreferences.ui.h:18
+#: ../ui/altpreferences.ui.h:22
 msgid "Use:"
 msgstr "Uporabi:"
 
-#: ../ui/altpreferences.ui.h:19
+#: ../ui/altpreferences.ui.h:23
 msgid "Inline song/artist label"
 msgstr "Znotrajvrstična oznaka pesem/umetnik"
 
-#: ../ui/altpreferences.ui.h:20
+#: ../ui/altpreferences.ui.h:24
 msgid ""
 "Display Song and Artist labels before the progress slider.  If not checked, "
 "they are displayed above the progress slider."
@@ -227,11 +243,11 @@ msgstr ""
 "Pokaži oznake Pesem in Umetnik pred drsnikom za prikaz napredka. Če ni "
 "obkljukano, so prikazane nad drsnikom."
 
-#: ../ui/altpreferences.ui.h:21
+#: ../ui/altpreferences.ui.h:25
 msgid "Enhanced sidebar"
 msgstr "Izboljšana stranska vrstica"
 
-#: ../ui/altpreferences.ui.h:22
+#: ../ui/altpreferences.ui.h:26
 msgid ""
 "Show or hide redesigned sidebar for the player. It features improved "
 "symbolic icons, better sources organisation and ability to expand and "
@@ -241,31 +257,9 @@ msgstr ""
 "izboljšane simbolne ikone, boljšo organizacijo virov in sposobnost za "
 "razširitev in strnitev kategorij."
 
-#: ../ui/altpreferences.ui.h:23
-msgid "Enhanced plugins dialog"
-msgstr "Izboljšano pogovorno okno vstavkov"
-
-#: ../ui/altpreferences.ui.h:24
-msgid ""
-"Show or hide redesigned plugins dialog. It features switches instead of "
-"checkboxes and inline toolbar with symbolic icons .  Works best with Gnome "
-"based desktop environments."
-msgstr ""
-"Pokaži ali skrij preoblikovano pogovorno okno vstavkov. Nudi stikala namesto "
-"označnih polj in znotrajvrstično orodno vrstico s simbolnimi ikonami. "
-"Najbolje deluje z namiznimi okolji, ki temeljijo na GNOME."
-
-#: ../ui/altpreferences.ui.h:25
-msgid "Dark theme if available"
-msgstr "Temen izgled, če je mogoče"
-
 #: ../ui/altpreferences.ui.h:27
-msgid "Horizontal"
-msgstr "Vodoravno"
-
-#: ../ui/altpreferences.ui.h:28
-msgid "Vertical"
-msgstr "Navpično"
+msgid "Dark theme if available"
+msgstr "Temen izgled, če je na voljo"
 
 #: ../ui/alttoolbar.ui.h:1
 msgid "Play the previous track"
@@ -282,12 +276,3 @@ msgstr "Predvajaj naslednjo skladbo"
 #: ../ui/alttoolbar.ui.h:5
 msgid "Play the tracks in random order"
 msgstr "Predvajaj skladbe v naključnem vrstnem redu"
-
-#~ msgid "_Help"
-#~ msgstr "_Pomoč"
-
-#~ msgid "_About"
-#~ msgstr "_O programu"
-
-#~ msgid "_Quit"
-#~ msgstr "_Izhod"

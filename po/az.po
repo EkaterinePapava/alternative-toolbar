@@ -1,16 +1,17 @@
-# Croatian translation for alternative-toolbar
-# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
-# This file is distributed under the same license as the alternative-toolbar package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# Azerbaijani translation for rhythmbox-plugin-alternative-toolbar
+# Copyright (c) 2025 Rosetta Contributors and Canonical Ltd 2025
+# This file is distributed under the same license as the rhythmbox-plugin-alternative-toolbar package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# Elmin Əlirzayev <elmin.alirzayev@gmail.com>, 2025.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: alternative-toolbar\n"
+"Project-Id-Version: rhythmbox-plugin-alternative-toolbar\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-12-01 14:35+0000\n"
-"PO-Revision-Date: 2021-09-12 18:30+0000\n"
-"Last-Translator: gogo <trebelnik2@gmail.com>\n"
-"Language-Team: Croatian <hr@li.org>\n"
+"PO-Revision-Date: 2025-10-08 07:24+0000\n"
+"Last-Translator: Elmin Alirzayev <Unknown>\n"
+"Language-Team: Azerbaijani <az@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,60 +20,60 @@ msgstr ""
 
 #: ../alternative-toolbar.py:228 ../alternative-toolbar.py:231
 msgid "Search"
-msgstr "Pretraga"
+msgstr "Axtarış"
 
 #: ../alternative-toolbar.py:238
 msgid "Seek Backward"
-msgstr "Premotaj unatrag"
+msgstr "Geri axtar"
 
 #: ../alternative-toolbar.py:241
 msgid "Seek backward, in current track, by 5 seconds."
-msgstr "Premotaj unatrag, u trenutnoj pjesmi, za 5 sekundi."
+msgstr "Cari trekdə 5 saniyə geri axtar."
 
 #: ../alternative-toolbar.py:245
 msgid "Seek Forward"
-msgstr "Premotaj naprijed"
+msgstr "İrəli axtar"
 
 #: ../alternative-toolbar.py:249
 msgid "Seek forward, in current track, by 10 seconds."
-msgstr "Premotaj naprijed, u trenutnoj pjesmi, za 10 sekundi."
+msgstr "Cari trekdə 10 saniyə irəli axtar."
 
 #: ../alternative-toolbar.py:261
 msgid "Show Play-Controls Toolbar"
-msgstr "Prikaži alatnu traku upravljanja repordukcijom"
+msgstr "Oynatma idarəetmə alət çubuğunu göstər"
 
 #: ../alternative-toolbar.py:265
 msgid "Show or hide the play-controls toolbar"
-msgstr "Prikaži ili sakrij alatnu traku upravljanja repordukcijom"
+msgstr "Oynatma idarəetmə alət çubuğunu göstər və ya gizlət"
 
 #: ../alternative-toolbar.py:270
 msgid "Show Source Toolbar"
-msgstr "Prikaži izvor alatne trake"
+msgstr "Mənbə alət çubuğunu göstər"
 
 #: ../alternative-toolbar.py:273
 msgid "Show or hide the source toolbar"
-msgstr "Prikaži ili sakrij izvor alatne trake"
+msgstr "Mənbə alət çubuğunu göstər və ya gizlət"
 
 #. define .plugin text strings used for translation
 #: ../alternative-toolbar.py:554
 msgid "Alternative Toolbar"
-msgstr "Alternativna alatna traka"
+msgstr "Alternativ alət çubuğu"
 
 #: ../alternative-toolbar.py:557
 msgid ""
 "Replace the Rhythmbox large toolbar with a Client-Side Decorated or Compact "
 "Toolbar which can be hidden"
 msgstr ""
-"Zamijenjuje Rhythmboxovu veliku alatnu traku sa ukrašenom od klijentove "
-"strane ili zbijenom alatnom trakom koja se može sakriti"
+"Rhythmbox-un böyük alət çubuğunu müştəri tərəfində bəzədilmiş və ya "
+"gizlədilə bilən kompakt alət çubuğu ilə əvəz et"
 
 #: ../alttoolbar_controller.py:156
 msgid "View All"
-msgstr "Prikaži sve"
+msgstr "Hamısına bax"
 
 #: ../alttoolbar_controller.py:533
 msgid "Stations"
-msgstr "Stanice"
+msgstr "Stansiyalar"
 
 #: ../alttoolbar_controller.py:562
 msgid "Libre.fm"
@@ -80,101 +81,99 @@ msgstr "Libre.fm"
 
 #: ../alttoolbar_controller.py:605
 msgid "My Top Rated"
-msgstr "Najpopularnije"
+msgstr "Ən yüksək qiymətləndirdiklərim"
 
 #: ../alttoolbar_controller.py:609
 msgid "Recently Added"
-msgstr "Nedavno dodano"
+msgstr "Son əlavə olunanlar"
 
 #: ../alttoolbar_controller.py:613
 msgid "Recently Played"
-msgstr "Nedavno reproducirano"
+msgstr "Son ifa olunanlar"
 
 #: ../alttoolbar_controller.py:646
 msgid "Podcasts"
-msgstr "Podcasti"
+msgstr "Podkastlar"
 
 #: ../alttoolbar_preferences.py:307
 msgid "Restart"
-msgstr "Ponovno pokreni"
+msgstr "Yenidən başlat"
 
 #: ../alttoolbar_sidebar.py:81
 msgid "Local collection"
-msgstr "Lokalna kolekcija"
+msgstr "Yerli yığın"
 
 #: ../alttoolbar_sidebar.py:82
 msgid "Online sources"
-msgstr "Mrežni izvori"
+msgstr "Onlayn mənbələr"
 
 #: ../alttoolbar_sidebar.py:83
 msgid "Other sources"
-msgstr "Ostali izvori"
+msgstr "Digər mənbələr"
 
 #: ../alttoolbar_sidebar.py:84
 msgid "Playlists"
-msgstr "Popisi izvođenja"
+msgstr "Oynatma siyahıları"
 
 #: ../alttoolbar_type.py:1469 ../ui/altlibrary.ui.h:1
 msgid "Songs"
-msgstr "Pjesme"
+msgstr "Mahnılar"
 
 #: ../alttoolbar_type.py:1475 ../alttoolbar_type.py:1559
 #: ../ui/altpreferences.ui.h:28 ../ui/altlibrary.ui.h:2
 msgid "Categories"
-msgstr "Kategorije"
+msgstr "Kateqoriyalar"
 
 #: ../alttoolbar_type.py:1543
 msgid "Browse"
-msgstr "Pregledaj"
+msgstr "Gəz"
 
 #: ../alttoolbar_repeat.py:96 ../alttoolbar_repeat.py:193
 msgid "Repeat all tracks"
-msgstr "Ponovi sve pjesme"
+msgstr "Bütün trekləri təkrarla"
 
 #: ../alttoolbar_repeat.py:98 ../alttoolbar_repeat.py:214
 #: ../ui/alttoolbar.ui.h:4
 msgid "Repeat the current track"
-msgstr "Ponovi trenutnu pjesmu"
+msgstr "Cari treki təkrarla"
 
 #: ../ui/altpreferences.ui.h:1
 msgid "Top"
-msgstr "Na vrhu"
+msgstr "Yuxarı"
 
 #: ../ui/altpreferences.ui.h:2
 msgid "Bottom"
-msgstr "Na dnu"
+msgstr "Aşağı"
 
 #: ../ui/altpreferences.ui.h:3
 msgid "Horizontal"
-msgstr "Vodoravne"
+msgstr "Üfüqi"
 
 #: ../ui/altpreferences.ui.h:4
 msgid "Vertical"
-msgstr "Okomite"
+msgstr "Şaquli"
 
 #: ../ui/altpreferences.ui.h:5
 msgid "Restart the player for the changes to take effect."
-msgstr "Ponovno pokrenite reproduktor kako bi se promjene primijenile."
+msgstr "Dəyişikliklərin qüvvəyə minməsi üçün pleyeri yenidən başlat."
 
 #: ../ui/altpreferences.ui.h:6
 msgid "Toolbar:"
-msgstr "Alatna traka:"
+msgstr "Alət çubuğu:"
 
 #: ../ui/altpreferences.ui.h:7
 msgid ""
 "Best suitable for desktop\n"
 "environments like Gnome and Elementary."
-msgstr ""
-"Najbolje je prikladna za okruženja\n"
-"radne površine poput Gnomea i Elementarya."
+msgstr "Gnome və Elementary kimi masaüstü mühitlər üçün ən uyğun seçimdir."
 
 #: ../ui/altpreferences.ui.h:9
 msgid "Modern"
-msgstr "Moderno"
+msgstr "Müasir"
 
 #: ../ui/altpreferences.ui.h:10
 msgid "Use compact controls"
-msgstr "Koristi zbijena upravljanja"
+msgstr "Kompakt idarəetmələrdən istifadə et"
 
 #: ../ui/altpreferences.ui.h:11
 msgid ""
@@ -182,17 +181,17 @@ msgid ""
 "instead of the standard rhythmbox style.\n"
 "Always enabled for modern toolbar mode."
 msgstr ""
-"Prikaži upravljanja reprodukcijom u alatnoj traci u vizualno zbijenom "
-"izgledu umjesto u standardnom rhythmbox izgledou.\n"
-"Uvijek je omogućeno za moderan način alatne trake."
+"Oynatma idarəetmələrini standart Rhythmbox üslubu əvəzinə alət çubuğunda "
+"vizual olaraq kompakt tərzdə göstər.\n"
+"Bu, müasir alət çubuğu rejimi üçün həmişə aktiv olur."
 
 #: ../ui/altpreferences.ui.h:13
 msgid "Show:"
-msgstr "Prikaz:"
+msgstr "Göstər:"
 
 #: ../ui/altpreferences.ui.h:14
 msgid "Album/genre/year for playing song"
-msgstr "Album/žanr/godina reproducirajuće pjesme"
+msgstr "İfa olunan mahnı üçün albom/janr/il"
 
 #: ../ui/altpreferences.ui.h:15
 msgid ""
@@ -200,53 +199,53 @@ msgid ""
 "desktop-environments where song-artist-album is already displayed in the "
 "window title."
 msgstr ""
-"Prikaži album/žanr/godinu umjesto pjesma-izvođač-album. Korisno za radna "
-"okruženja gdje pjesma-izvođač-album je već prikazan u naslovnoj traci "
-"prozora."
+"Mahnı–ifaçı–albom əvəzinə albom/janr/ili göstər. Bu, artıq pəncərə "
+"başlığında mahnı–ifaçı–albom məlumatları görünən masaüstü mühitlər üçün "
+"faydalıdır."
 
 #: ../ui/altpreferences.ui.h:16
 msgid "Tooltips for the playback controls"
-msgstr "Savjeti za upravljanja reprodukcijom"
+msgstr "Oynatma idarəetmələri üçün ipucları"
 
 #: ../ui/altpreferences.ui.h:17
 msgid "Show or hide the tooltips for the playback controls."
-msgstr "Prikaži ili sakrije savjete za upravljanje reprodukcijom."
+msgstr "Oynatma idarəetmələri üçün ipuclarını göstər və ya gizlət."
 
 #: ../ui/altpreferences.ui.h:18
 msgid "Volume control"
-msgstr "Upravljanje glasnoćom zvuka"
+msgstr "Səs səviyyəsi idarəetməsi"
 
 #: ../ui/altpreferences.ui.h:19
 msgid "Show or hide the volume control."
-msgstr "Prikaži ili sakrij upravljanje glasnoćom zvuka"
+msgstr "Səs səviyyəsi idarəetməsini göstər və ya gizlət."
 
 #: ../ui/altpreferences.ui.h:20
 msgid "Playback controls"
-msgstr "Upravljanje reprodukcijom"
+msgstr "Oynatma idarəetmələri"
 
 #: ../ui/altpreferences.ui.h:21
 msgid "Show or hide the playing controls on player startup."
-msgstr "Prikaži ili sakrij upravljanje reprodukcijom"
+msgstr "Pleyer başladıqda oynatma idarəetmələrini göstər və ya gizlət."
 
 #: ../ui/altpreferences.ui.h:22
 msgid "Use:"
-msgstr "Upotreba:"
+msgstr "İstifadə et:"
 
 #: ../ui/altpreferences.ui.h:23
 msgid "Inline song/artist label"
-msgstr "Naslov pjesme/izvođača u istom redku"
+msgstr "Sətiriçi mahnı/ifaçı etiketi"
 
 #: ../ui/altpreferences.ui.h:24
 msgid ""
 "Display Song and Artist labels before the progress slider.  If not checked, "
 "they are displayed above the progress slider."
 msgstr ""
-"Prikaži naslove pjesme i izvođača prije klizača napretka. Ako nije odabrano, "
-"prikazani su iznad klizača napretka."
+"Mahnı və ifaçı etiketlərini irəliləyiş sürüşdürgüsündən əvvəl göstər. "
+"Seçilmədikdə, onlar sürüşdürgünün yuxarısında göstəriləcək."
 
 #: ../ui/altpreferences.ui.h:25
 msgid "Enhanced sidebar"
-msgstr "Poboljšana bočna traka"
+msgstr "Təkmilləşdirilmiş yan panel"
 
 #: ../ui/altpreferences.ui.h:26
 msgid ""
@@ -254,26 +253,26 @@ msgid ""
 "symbolic icons, better sources organisation and ability to expand and "
 "collapse categories."
 msgstr ""
-"Prikaži ili sakrij redizajniranu bočnu traku reproduktora. Značajke su "
-"poboljšane simboličke ikone, bolja organizacija izvora i sposobnost "
-"proširenja i suženja kategorija."
+"Pleyer üçün yenidən tərtib edilmiş yan paneli göstər və ya gizlət. Bu "
+"paneldə təkmilləşdirilmiş simvolik ikonlar, daha yaxşı mənbə təşkilatı və "
+"kateqoriyaları genişləndirmək və yığmaq imkanı mövcuddur."
 
 #: ../ui/altpreferences.ui.h:27
 msgid "Dark theme if available"
-msgstr "Tamna tema ako je moguća"
+msgstr "Əgər mümkündürsə, tünd mövzu"
 
 #: ../ui/alttoolbar.ui.h:1
 msgid "Play the previous track"
-msgstr "Sviraj prijašnju pjesmu"
+msgstr "Əvvəlki treki oxut"
 
 #: ../ui/alttoolbar.ui.h:2
 msgid "Resume or pause the playback"
-msgstr "Nastavi ili pauziraj sviranje"
+msgstr "Oynatmanı davam etdir və ya fasilə ver"
 
 #: ../ui/alttoolbar.ui.h:3
 msgid "Play the next track"
-msgstr "Sviraj sljedeću pjesmu"
+msgstr "Növbəti treki oxut"
 
 #: ../ui/alttoolbar.ui.h:5
 msgid "Play the tracks in random order"
-msgstr "Sviraj pjesme naizmjenično"
+msgstr "Trekləri təsadüfi ardıcıllıqla oxut"
