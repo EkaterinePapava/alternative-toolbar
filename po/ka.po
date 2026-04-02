@@ -1,0 +1,280 @@
+# Georgian translation for alternative-toolbar.
+# Copyright (C) 2026 alternative-toolbar's authors.
+# This file is distributed under the same license as the alternative-toolbar package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: alternative-toolbar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-15 20:37+0100\n"
+"PO-Revision-Date: 2026-04-02 10:12+0200\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../alternative-toolbar.py:228 ../alternative-toolbar.py:231
+msgid "Search"
+msgstr "ძებნა"
+
+#: ../alternative-toolbar.py:238
+msgid "Seek Backward"
+msgstr "უკან გადახვევა"
+
+#: ../alternative-toolbar.py:241
+msgid "Seek backward, in current track, by 5 seconds."
+msgstr "გადახვევა უკან, მიმდინარე ტრეკში, 5 წამით."
+
+#: ../alternative-toolbar.py:245
+msgid "Seek Forward"
+msgstr "წინ გადახვევა"
+
+#: ../alternative-toolbar.py:249
+msgid "Seek forward, in current track, by 10 seconds."
+msgstr "გადახვევა წინ, მიმდინარე ტრეკში, 10 წამით."
+
+#: ../alternative-toolbar.py:261
+msgid "Show Play-Controls Toolbar"
+msgstr "დაკვრის კონტროლის ხელსაწყოთა პანელის ჩვენება"
+
+#: ../alternative-toolbar.py:265
+msgid "Show or hide the play-controls toolbar"
+msgstr "დაკვრის კონტროლის ხელსაწყოთა პანელის ჩვენება, ან დამალვა"
+
+#: ../alternative-toolbar.py:270
+msgid "Show Source Toolbar"
+msgstr "წყაროს ხელსაწყოთა პანელის ჩვენება"
+
+#: ../alternative-toolbar.py:273
+msgid "Show or hide the source toolbar"
+msgstr "წყაროს ხელსაწყოთა პანელის ჩვენება, ან დამალვა"
+
+#. define .plugin text strings used for translation
+#: ../alternative-toolbar.py:554
+msgid "Alternative Toolbar"
+msgstr "Alternative Toolbar"
+
+#: ../alternative-toolbar.py:557
+msgid ""
+"Replace the Rhythmbox large toolbar with a Client-Side Decorated or Compact "
+"Toolbar which can be hidden"
+msgstr ""
+"შეცვალეთ Rhythmbox-ის დიდი ხელსაწყოთა პანელი კლიენტის მხრის დეკორირებული ან "
+"კომპაქტური ხელსაწყოთა პანელით, რომლის დამალვაც შეგიძლიათ"
+
+#: ../alttoolbar_controller.py:156
+msgid "View All"
+msgstr "ყველას ნახვა"
+
+#: ../alttoolbar_controller.py:533
+msgid "Stations"
+msgstr "სადგურები"
+
+#: ../alttoolbar_controller.py:562
+msgid "Libre.fm"
+msgstr "Libre.fm"
+
+#: ../alttoolbar_controller.py:605
+msgid "My Top Rated"
+msgstr "ჩემი ყველაზე რეიტინგული"
+
+#: ../alttoolbar_controller.py:609
+msgid "Recently Added"
+msgstr "ახლახან დამატებული"
+
+#: ../alttoolbar_controller.py:613
+msgid "Recently Played"
+msgstr "ახლახანს დაკრული"
+
+#: ../alttoolbar_controller.py:646
+msgid "Podcasts"
+msgstr "პოდკასტები"
+
+#: ../alttoolbar_preferences.py:307
+msgid "Restart"
+msgstr "გადატვირთვა"
+
+#: ../alttoolbar_sidebar.py:81
+msgid "Local collection"
+msgstr "ლოკალური კოლექცია"
+
+#: ../alttoolbar_sidebar.py:82
+msgid "Online sources"
+msgstr "ინტერნეტწყაროები"
+
+#: ../alttoolbar_sidebar.py:83
+msgid "Other sources"
+msgstr "სხვა წყაროები"
+
+#: ../alttoolbar_sidebar.py:84
+msgid "Playlists"
+msgstr "დასაკრავი სიები"
+
+#: ../alttoolbar_type.py:1469 ../ui/altlibrary.ui.h:1
+msgid "Songs"
+msgstr "სიმღერები"
+
+#: ../alttoolbar_type.py:1475 ../alttoolbar_type.py:1559
+#: ../ui/altpreferences.ui.h:28 ../ui/altlibrary.ui.h:2
+msgid "Categories"
+msgstr "კატეგორიები"
+
+#: ../alttoolbar_type.py:1543
+msgid "Browse"
+msgstr "პოვნა"
+
+#: ../alttoolbar_repeat.py:96 ../alttoolbar_repeat.py:193
+msgid "Repeat all tracks"
+msgstr "ყველა ტრეკის გამეორება"
+
+#: ../alttoolbar_repeat.py:98 ../alttoolbar_repeat.py:214
+#: ../ui/alttoolbar.ui.h:4
+msgid "Repeat the current track"
+msgstr "მიმდინარე ტრეკის გამეორება"
+
+#: ../ui/altpreferences.ui.h:1
+msgid "Top"
+msgstr "ზედა"
+
+#: ../ui/altpreferences.ui.h:2
+msgid "Bottom"
+msgstr "ქვემო"
+
+#: ../ui/altpreferences.ui.h:3
+msgid "Horizontal"
+msgstr "ჰორიზონტალური"
+
+#: ../ui/altpreferences.ui.h:4
+msgid "Vertical"
+msgstr "ვერტიკალური"
+
+#: ../ui/altpreferences.ui.h:5
+msgid "Restart the player for the changes to take effect."
+msgstr "გადატვირთეთ დამკვრელი ცვლილებების ძალაში შესასვლელად."
+
+#: ../ui/altpreferences.ui.h:6
+msgid "Toolbar:"
+msgstr "ხელსაწყოების პანელი:"
+
+#: ../ui/altpreferences.ui.h:7
+msgid ""
+"Best suitable for desktop\n"
+"environments like Gnome and Elementary."
+msgstr ""
+"საუკეთესოა ისეთი სამუშაო მაგიდებისთვის,\n"
+"როგორიცაა GNOME და Elementary."
+
+#: ../ui/altpreferences.ui.h:9
+msgid "Modern"
+msgstr "თანამედროვე"
+
+#: ../ui/altpreferences.ui.h:10
+msgid "Use compact controls"
+msgstr "კომპაქტური კონტროლის ელემენტების გამოყენება"
+
+#: ../ui/altpreferences.ui.h:11
+msgid ""
+"Display the playback controls in the toolbar in visually compact style "
+"instead of the standard rhythmbox style.\n"
+"Always enabled for modern toolbar mode."
+msgstr ""
+"გამოიტანეთ დაკვრის კონტროლის ელემენტები ხელსაწყოთა პანელი ვიზუალურად "
+"კომპაქტურ სტილში სტანდარტული rhythmbox-ის სტილის მაგიერ.\n"
+"თანამედროვე ხელსაწყოთა პანელის რეჟიმში ყოველთვის ჩართულია."
+
+#: ../ui/altpreferences.ui.h:13
+msgid "Show:"
+msgstr "ჩვენება:"
+
+#: ../ui/altpreferences.ui.h:14
+msgid "Album/genre/year for playing song"
+msgstr "ალბომი/ჟანრი/წელიწადი სიმღერისთვის, რომლის დაკვრაც მიმდინარეობს"
+
+#: ../ui/altpreferences.ui.h:15
+msgid ""
+"Display album/genre/year instead of song-artist-album.  Useful for those "
+"desktop-environments where song-artist-album is already displayed in the "
+"window title."
+msgstr ""
+"ალბომი/ჟანრი/წლის ჩვენება სიმღერა-შემსრულებელი-ალბომის მაგიერ.  გამოსადეგია "
+"იმ სამუშაო გარემოებისთვის, სადაც სიმღერა-შემსრულებელი-ალბომი უკვე "
+"ნაჩვენებია ფანჯრის სათაურში."
+
+#: ../ui/altpreferences.ui.h:16
+msgid "Tooltips for the playback controls"
+msgstr "მინიშნებები დაკვრის კონტროლის ელემენტებისთვის"
+
+#: ../ui/altpreferences.ui.h:17
+msgid "Show or hide the tooltips for the playback controls."
+msgstr "დაკვრის კონტროლის ელემენტების მინიშნებების ჩვენება, ან დამალვა."
+
+#: ../ui/altpreferences.ui.h:18
+msgid "Volume control"
+msgstr "ხმის კონტროლი"
+
+#: ../ui/altpreferences.ui.h:19
+msgid "Show or hide the volume control."
+msgstr "ხმის კონტროლის ჩვენება, ან დამალვა."
+
+#: ../ui/altpreferences.ui.h:20
+msgid "Playback controls"
+msgstr "დაკვრის კონტროლის ელემენტები"
+
+#: ../ui/altpreferences.ui.h:21
+msgid "Show or hide the playing controls on player startup."
+msgstr ""
+"დამკვრელის გაშვებისას დაკვრის კონტროლის ელემენტების ჩვენება, ან დამალვა."
+
+#: ../ui/altpreferences.ui.h:22
+msgid "Use:"
+msgstr "გამოყენება:"
+
+#: ../ui/altpreferences.ui.h:23
+msgid "Inline song/artist label"
+msgstr "ხაზშივე სიმღერის/შემსრულებლის ჭდე"
+
+#: ../ui/altpreferences.ui.h:24
+msgid ""
+"Display Song and Artist labels before the progress slider.  If not checked, "
+"they are displayed above the progress slider."
+msgstr ""
+"სიმღერისა და შემსრულებლის ჭდეების ჩვენება მიმდინარეობის ჩოჩიაზე.  თუ "
+"ჩართული არა, ისინი მიმდინარეობის ჩოჩიას თავზე იქნება ნაჩვენები."
+
+#: ../ui/altpreferences.ui.h:25
+msgid "Enhanced sidebar"
+msgstr "გაფართოებული გვერდითი პანელები"
+
+#: ../ui/altpreferences.ui.h:26
+msgid ""
+"Show or hide redesigned sidebar for the player. It features improved "
+"symbolic icons, better sources organisation and ability to expand and "
+"collapse categories."
+msgstr ""
+"განახლებული გვერდითი პანელის ჩვენება, ან დამალვა დამკვრელიდან. მას აქვს "
+"გაუმჯობესებული ხატულები, უკეთესი წყაროების ორგანიზაცია და შესაძლებლობა, "
+"აკეცოს და ჩამოკეცოს კატეგორიები."
+
+#: ../ui/altpreferences.ui.h:27
+msgid "Dark theme if available"
+msgstr "მუქი თემა, თუ ხელმისაწვდომია"
+
+#: ../ui/alttoolbar.ui.h:1
+msgid "Play the previous track"
+msgstr "წინას დაკვრა"
+
+#: ../ui/alttoolbar.ui.h:2
+msgid "Resume or pause the playback"
+msgstr "დაკვრის შეჩერება, ან გაგრძელება"
+
+#: ../ui/alttoolbar.ui.h:3
+msgid "Play the next track"
+msgstr "შემდეგის დაკვრა"
+
+#: ../ui/alttoolbar.ui.h:5
+msgid "Play the tracks in random order"
+msgstr "სიმღერების დაკვრა შემთხვევითი მიმდევრობით"
